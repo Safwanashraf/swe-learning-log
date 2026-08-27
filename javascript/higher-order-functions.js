@@ -36,6 +36,7 @@ const area = (radius) => Math.PI * radius * radius;
 const circumference = (radius) => 2 * Math.PI * radius;
 const diameter = (radius) => 2 * radius;
 
+// This is the same logic as the map function
 const calculate = (radius, logic) => {
     const output = [];
     for( let i = 0; i < radius.length; i++) {
@@ -47,3 +48,19 @@ const calculate = (radius, logic) => {
 console.log(calculate(radius, area));
 console.log(calculate(radius, circumference));
 console.log(calculate(radius, diameter));
+
+//using inbuilt map function
+console.log(radius.map(area));
+console.log(radius.map(circumference));
+console.log(radius.map(diameter));
+
+// Inorder to make the calculate function same as map
+Array.prototype.calculates = function (logic) {
+    const output = [];
+    for( let i = 0; i < this.length; i++) {
+        output.push(logic(this[i]));
+    }
+    return output;
+}
+
+console.log(radius.calculates(area));
