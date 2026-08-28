@@ -22,3 +22,8 @@ function isPrime(n) {
 const primeNumbers = array.filter(isPrime);
 console.log("these are prime numbers: ", primeNumbers);
 
+// You have an array of words. Use filter() to get only the words that have more than 5 letters.
+const fruits = ["apple", "banana", "kiwi", "pineapple", "grape"];
+
+const bigNames = fruits.filter(fruit => fruit.length > 5);
+console.log(bigNames);
