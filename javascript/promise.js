@@ -22,3 +22,6 @@ myPromise
   .finally(() => {
     console.log("Promise settled.");
   });
+
+
+  ///////
