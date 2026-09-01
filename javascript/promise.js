@@ -1,14 +1,15 @@
 // A Promise represents a result that will be available later.
-const myPromise = new Promise((resolve, reject) => {
+
+const myPromise = new Promise((res, rej) => {
   const isSuccessful = true;
 
   setTimeout(() => {
     if (isSuccessful) {
-      resolve("Task completed successfully!");
+      res("Task completed successfully!");
     } else {
-      reject(new Error("Task failed."));
+      rej(new Error("Task failed."));
     }
-  }, 1000);
+  }, 3000);
 });
 
 myPromise
