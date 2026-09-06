@@ -19,4 +19,3 @@ console.log("It still works");
 // Different types of error handling are there.
 // Try catch
 // .catch
-// 
