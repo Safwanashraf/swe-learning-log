@@ -14,3 +14,9 @@ function addTwoNums(a,b) {
 addTwoNums(5, "5");
 console.log("It still works");
 console.log("It still works"); 
+
+
+// Different types of error handling are there.
+// Try catch
+// .catch
+// 
