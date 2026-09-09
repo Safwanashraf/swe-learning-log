@@ -61,4 +61,6 @@ const obj2 = {
 }
 obj2.x();
 
-// this inside DOM.
+// this inside DOM elements => reference to HTML element.
+/* Do it in .html file
+ <button onclick="alert(this.tagName)"> Click Me</button> */
