@@ -1,0 +1,16 @@
+#heading {
+    color:purple;
+    background-color: lightseagreen;
+    width: fit-content;
+}
+
+#heading3 {
+    color: red;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+#paragraph {
+    text-decoration-line: line-through;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "react-mastery",
+  "version": "1.0.0",
+  "description": "Let's master React!",
+  "license": "ISC",
+  "author": "Safwan Ashraf",
+  "type": "commonjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
